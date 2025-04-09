@@ -17,10 +17,23 @@
             }
             #videoTitle{
                 text-align: center;
+                margin-bottom: 0px;
+                padding-top: 40px;
+                font-family: 'Times New Roman', Times, serif;
             }
 
             td{
                 text-align: center;
+            }
+            th{
+                padding:20px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+            td{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 18;
+                padding-left: 15pt;
+                padding-right: 15px;
             }
 
         </style>
@@ -44,11 +57,11 @@
     
 
              
-              <div id="videoTitle"> <h2>Shinchan: Shiro and the Coal Town</h2>              
+              <div id="videoTitle"> <h1>Shinchan: Shiro and the Coal Town</h1>              
                 <h4>(Available on: Nintendo Switch and Windows PC)</h4></div> 
                 
                 
-                <div  style="text-align: center;">
+                <div  style="text-align: center; margin-top: 0px;padding-top: 0px;">
              <video id="video" width="1200" height="800" controls>
               <source src="./assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
             </video></div>
@@ -57,8 +70,9 @@
             <br>
             <br>
 
-            <table id="character">
-                <caption><h1>The Characters</h1></caption>
+            <div  style="border-style:solid; border-color:rgb(14, 45, 133); border-radius: 20pt;">
+            <table id="character" style="background-color: aliceblue;">
+                <caption style="margin-bottom: 20px;"><h1>The Characters</h1></caption>
                 <br>
                 <tr>
                     <th>Shinnosuke Nohara (Shinchan)</th>
@@ -78,12 +92,15 @@
                     <td>The laid-back father who works at a company
                         and enjoys his evening beer.</td>        
                 </tr>
-          
+                                
+                <br>
+
                 <tr>
                     <th>Himawari (Sister)</th>
                     <th>Yukino Nohara (Shiro) </th>
                     <th>Toru Kazama</th>
                 </tr>
+
                 <tr>
                     <td> <img src="./assets/character-himawari.png" width="200"></td>
                     <td> <img src="./assets/character-shiro.png" width="200"></td>
@@ -97,8 +114,10 @@
                             often the voice of reason in the group.</td>
                 </tr>
          
-            </table>
+            </table></div>
+
             <br>
+
             <br>
           <h1 id="favorite">Who's your favorite?</h1>
             <label for="favorite Characters">Who's your favorite?</label>
