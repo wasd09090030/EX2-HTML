@@ -4,18 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">       
         <title>Shinchan - Homepage</title>
+
+        <style>
+            #NAV{
+              text-align: center;  
+            }
+            #Firjpg{
+                text-align: left;
+            }
+            #Secjpg{
+                text-align: right;
+            }
+            #videoTitle{
+                text-align: center;
+            }
+
+            td{
+                text-align: center;
+            }
+
+        </style>
     </head>
 
     <body>
         
-            <img src="./assets/shin-chan-banner.jpg" alt="img load failed">
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src="./assets/naughtiest-son.jpg" alt="img load failed" width="350">
-             <br>
+        <span id="Firjpg"> <img src="./assets/shin-chan-banner.jpg" alt="img load failed"></span>
+            <span id="Secjpg"><img src="./assets/naughtiest-son.jpg" alt="img load failed" width="350"></span>
 
           
                 
-          <h5>
+          <h5 id="NAV">
             <a href="#video">shinchan: Shiro and the Coal Town Game</a>
                 &nbsp;&nbsp;    
             <a href="#character">Characters</a>          
@@ -26,13 +44,14 @@
     
 
              
-                <h3>Shinchan: Shiro and the Coal Town</h3>
-                <br>
-                <h4>(Available on: Nintendo Switch and Windows PC)</h4>
-             
+              <div id="videoTitle"> <h2>Shinchan: Shiro and the Coal Town</h2>              
+                <h4>(Available on: Nintendo Switch and Windows PC)</h4></div> 
+                
+                
+                <div  style="text-align: center;">
              <video id="video" width="1200" height="800" controls>
               <source src="./assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
-            </video>
+            </video></div>
 
 
             <br>
@@ -40,6 +59,7 @@
 
             <table id="character">
                 <caption><h1>The Characters</h1></caption>
+                <br>
                 <tr>
                     <th>Shinnosuke Nohara (Shinchan)</th>
                     <th>Misae Nohara (Mom)</th>
